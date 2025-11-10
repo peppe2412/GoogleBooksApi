@@ -24,4 +24,5 @@ Route::controller(AuthController::class)->group(function(){
 Route::controller(BookController::class)->group(function(){
     Route::get('/books', 'search');
     Route::get('/book/{id}', 'import');
+    Route::get('/books/index', 'index');
 });

@@ -48,4 +48,10 @@ class BookController extends Controller
 
         return $response->json($book);
     }
+
+    public function index(){
+        $books = Book::all();
+        return response()->json($books);
+    }
+
 }
