@@ -1,5 +1,7 @@
 <?php
 
+/* Metodo CORS per far accetare le richieste fatte dal lato front end */
+
 return [
 
     'paths' => ['api/*', 'login', 'logout', 'sanctum/csrf-cookie'],
